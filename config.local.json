@@ -1,0 +1,36 @@
+{
+  "mac_address": "BTH98:D3:51:FE:87:0B",
+  "sampling_rate_hz": 100,
+  "read_chunk_samples": 10,
+  "channels": {
+    "acc_x": 1,
+    "acc_y": 2,
+    "acc_z": 3,
+    "ppg": 4,
+    "pzt": 5
+  },
+  "thresholds": {
+    "respiration_min_bpm": 5.0,
+    "respiration_max_bpm": 12.0,
+    "heart_min_bpm": 45.0,
+    "heart_max_bpm": 115.0,
+    "movement_calm_rms": 0.00003,
+    "movement_high_rms": 0.00025
+  },
+  "alarm": {
+    "enabled": true,
+    "trigger_score": 0.82,
+    "cooldown_seconds": 8.0,
+    "frequency_hz": 880,
+    "duration_ms": 700
+  },
+  "motion_alarm": {
+    "enabled": true,
+    "trigger_rms": 0.00045,
+    "cooldown_seconds": 3.0,
+    "frequency_hz": 1320,
+    "duration_ms": 450
+  },
+  "simulation_scenario": "default",
+  "log_directory": "data"
+}
