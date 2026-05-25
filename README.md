@@ -154,5 +154,5 @@ feathermind/
 - Nana Talom Franck
 - Joel Tchinda Tapa
 
-Projet realise dans le cadre du cours **Technologie et Facteurs Humains - EPITA 4A**.
+Projet realise dans le cadre du cours **Technologie et Facteurs Humains - ENSIM 4A**.
 
